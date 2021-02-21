@@ -64,7 +64,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\heart_beat.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scenes\Scripts\TestScript.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AmbienceEmitter.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AudioManager.cs" />
@@ -218,13 +217,14 @@
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPPropagationSettings.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPSettings.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPVersion.cs" />
+    <Compile Include="Assets\Scripts\heart_beat.cs" />
     <Compile Include="Assets\Scripts\move_spheres.cs" />
-    <Compile Include="Assets\set_color.cs" />
-    <Compile Include="Assets\SpherePointCloud.cs" />
-    <Compile Include="Assets\stretch_room.cs" />
-    <Compile Include="Assets\strobe.cs" />
-    <Compile Include="Assets\throw_sphere.cs" />
-    <Compile Include="Assets\vibrate_room.cs" />
+    <Compile Include="Assets\Scripts\set_color.cs" />
+    <Compile Include="Assets\Scripts\SpherePointCloud.cs" />
+    <Compile Include="Assets\Scripts\stretch_room.cs" />
+    <Compile Include="Assets\Scripts\strobe.cs" />
+    <Compile Include="Assets\Scripts\throw_sphere.cs" />
+    <Compile Include="Assets\Scripts\vibrate_room.cs" />
     <None Include="Assets\Oculus\SampleFramework\Usage\OVROverlayCanvas\Shaders\UI Prerendered Opaque.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_PC_SingleComponent.shader" />
     <None Include="Assets\Oculus\Avatar\Samples\CrossPlatform\Readme.txt" />
