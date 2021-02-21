@@ -6,23 +6,23 @@ public class heart_beat : MonoBehaviour
 {
 
     // Effect trigger
-    public float trigger_prob = 0.02f;
     private bool is_running = false;
     private float t0;
-    public float bpm = 125f;
     private float delta_time_bpm;
     private Vector3 scale_0;
+    public float trigger_prob = 0.02f;
+    public float bpm = 125f;
     public float duration_effect = 0.3f;
     public float coef_scale = 500f;
     public float power_scale = 4f;
-    public float t1 = 14.5f;
+    public float t1 = 15.36f;
 
     public AudioSource audio_source;
 
     public float time_offset = 0f;
 
     // Movement
-    public float speed_movement = 1f;
+    public float speed_movement = 2.5f;
     public GameObject camera;
     public float dist_camera;
     private float dist_camera_0;

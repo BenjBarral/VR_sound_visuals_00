@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{46D906A6-A900-7245-E809-404EA281695B}</ProjectGuid>
+    <ProjectGuid>{CC6BC9B9-FD9A-4F93-FE28-A5561BDE6F37}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Oculus.VR.Scripts.Editor</AssemblyName>
@@ -277,22 +277,22 @@
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Melanchall.DryWetMidi">
-      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/New Unity Project/Assets/Melanchall.DryWetMidi.dll</HintPath>
+      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/VR_sound_visuals_00/Assets/Melanchall.DryWetMidi.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/New Unity Project/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/VR_sound_visuals_00/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/New Unity Project/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/VR_sound_visuals_00/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/New Unity Project/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/VR_sound_visuals_00/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/New Unity Project/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/VR_sound_visuals_00/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/New Unity Project/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/VR_sound_visuals_00/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Users/bbarral/Documents/UNITY_EDITOR/2019.1.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -651,11 +651,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{F8C8FCD8-A52F-2BFC-C21D-6A327FE443C4}</Project>
+      <Project>{82810288-3B77-6129-5E73-0A3BC8FB879D}</Project>
       <Name>Oculus.VR</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Editor.csproj">
-      <Project>{23BE8C22-AA14-ED49-4157-EAA87D6C2474}</Project>
+      <Project>{D1055753-AB96-6BE7-5DAD-9FB92FEC5CB1}</Project>
       <Name>Oculus.VR.Editor</Name>
     </ProjectReference>
   </ItemGroup>

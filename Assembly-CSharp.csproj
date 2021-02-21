@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}</ProjectGuid>
+    <ProjectGuid>{02947263-D7DF-2908-F3BE-2040645699E0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -220,6 +220,7 @@
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPVersion.cs" />
     <Compile Include="Assets\Scripts\move_spheres.cs" />
     <Compile Include="Assets\set_color.cs" />
+    <Compile Include="Assets\SpherePointCloud.cs" />
     <Compile Include="Assets\stretch_room.cs" />
     <Compile Include="Assets\strobe.cs" />
     <Compile Include="Assets\throw_sphere.cs" />
@@ -263,25 +264,25 @@
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\OculusSampleTrainPropsShader.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\CrosshairZCheat.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/VR_sound_visuals_00/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/VR_sound_visuals_00/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/New Unity Project/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/VR_sound_visuals_00/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/VR_sound_visuals_00/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/New Unity Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/VR_sound_visuals_00/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/VR_sound_visuals_00/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/New Unity Project/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/VR_sound_visuals_00/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Users/bbarral/Documents/UNITY_EDITOR/2019.1.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -461,16 +462,16 @@
       <HintPath>/Users/bbarral/Documents/UNITY_EDITOR/2019.1.4f1/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Melanchall.DryWetMidi">
-      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/New Unity Project/Assets/Melanchall.DryWetMidi.dll</HintPath>
+      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/VR_sound_visuals_00/Assets/Melanchall.DryWetMidi.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/New Unity Project/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/VR_sound_visuals_00/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/New Unity Project/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/VR_sound_visuals_00/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/New Unity Project/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>/Users/bbarral/Snapchat/Dev/Personal/UNITY_PROJECTS/VR_sound_visuals_00/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Users/bbarral/Documents/UNITY_EDITOR/2019.1.4f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -820,23 +821,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Oculus.Platform.csproj">
-      <Project>{911CF324-9828-1602-D6F7-C6B9D9214202}</Project>
+      <Project>{C0CBB88C-F19C-EC4A-A2FD-E474F426196A}</Project>
       <Name>Oculus.Platform</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Platform.Editor.csproj">
-      <Project>{440DA0D6-A642-B5CD-5482-6D33375F944A}</Project>
+      <Project>{AB14CF18-CBEE-D6E1-8B6F-EB9B2A5C4E5F}</Project>
       <Name>Oculus.Platform.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Editor.csproj">
-      <Project>{23BE8C22-AA14-ED49-4157-EAA87D6C2474}</Project>
+      <Project>{D1055753-AB96-6BE7-5DAD-9FB92FEC5CB1}</Project>
       <Name>Oculus.VR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Scripts.Editor.csproj">
-      <Project>{46D906A6-A900-7245-E809-404EA281695B}</Project>
+      <Project>{CC6BC9B9-FD9A-4F93-FE28-A5561BDE6F37}</Project>
       <Name>Oculus.VR.Scripts.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{F8C8FCD8-A52F-2BFC-C21D-6A327FE443C4}</Project>
+      <Project>{82810288-3B77-6129-5E73-0A3BC8FB879D}</Project>
       <Name>Oculus.VR</Name>
     </ProjectReference>
   </ItemGroup>
