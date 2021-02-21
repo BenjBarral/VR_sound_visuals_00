@@ -1329,6 +1329,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1522052278}
   - component: {fileID: 1522052277}
+  - component: {fileID: 1522052279}
   m_Layer: 0
   m_Name: Sphere_structure
   m_TagString: Untagged
@@ -1354,7 +1355,14 @@ MonoBehaviour:
   num_spheres_per_row_max: 200
   num_rows: 50
   shape_radius: 10
-  point_radius: 0.2
+  point_radius: 0.1
+  audioSource: {fileID: 1601674877}
+  t0_initial_formation: 15.36
+  wave_duration: 0.25
+  range_wave_effect: 1
+  wave_effect_extension: 1
+  t1_trigger_effect: 38.76
+  bpm: 31.25
 --- !u!4 &1522052278
 Transform:
   m_ObjectHideFlags: 0
@@ -1369,6 +1377,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1522052279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522052276}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 171569a9ed8a84774a428d7f5848e56a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger_prob: 0.02
+  bpm: 125
+  duration_effect: 0.3
+  coef_scale: 500
+  power_scale: 4
+  t1: 15.36
+  audio_source: {fileID: 1601674877}
+  time_offset: 0
+  speed_movement: 2.5
+  camera: {fileID: 781058026}
+  dist_camera: 0
+  bpm_translaton: 31.25
+  t1_translation: 24.72
+  duration_lerp: 0.1
 --- !u!1 &1601674876
 GameObject:
   m_ObjectHideFlags: 0
@@ -1511,7 +1545,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1861362714
 Transform:
   m_ObjectHideFlags: 0
